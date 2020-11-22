@@ -1,4 +1,5 @@
-Cookies.set("age", "I am too old");
+function select(userSelection) {
+    Cookies.set("selection", userSelection);
+    window.open("page2.html");
 
-Cookies.set("age", "I am too young");
-
+   }

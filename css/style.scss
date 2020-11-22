@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+img {
+    width: 50%;
+   
+
+
+}
+
+#selectionContainer {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 40px;
+    margin-top: 40px;
+}
