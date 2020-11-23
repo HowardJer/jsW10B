@@ -8,32 +8,44 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
+
+
+<!-- step 1 - create a page for a user to make a selecion from 1 of 3 values -->
+<!-- step 1 - simple .css to center text and sized/centred images -->
+
+
 <body>
 
-   
-<h1 id = "title">Dim Sum, Baby</h1>
-<div id = "selection-container">
-    <div id = "selection-1" class = "selection" onclick = "select('porkSuiMai')">
-        <img src = "images/porkSuiMai.jpg" alt = "Pork Sui Mai">
-        <h2>Pork Sui Mai</h2>
+
+    <h1 class="title">Please make</h1>
+    <h1 class="title">a selection ....</h1>
+
+
+
+    <div class="dimSum-container">
+
+        <div class="pickFrom" onclick="pickOne('suiMai')">
+            <img src="images/porkSuiMai.jpg" alt="Pork Sui Mai">
+            <h2>Pork Sui Mai</h2>
+        </div>
+        <div class="pickFrom" onclick="pickOne('shrimpDumpling')">
+            <img src="images/shrimpDumpling.jpg" alt="Shrimp Dumpling">
+            <h2>Shrimp Dumplings</h2>
+        </div>
+        <div class="pickFrom" onclick="pickOne('beefBall')">
+            <img src="images/beefBall.jpg" alt="Beef Ball">
+            <h2>Beef Ball</h2>
+        </div>
+
     </div>
-    <div id = "selection-2" class = "selection" onclick = "select('shrimpDumpling')">
-        <img src = "images/shrimpDumpling.jpg" alt = "Shrimp Dumpling">
-        <h2>Shrimp Dumplings</h2>
-    </div>
-    <div id = "selection-31" class = "selection" onclick = "select('beefBall')">
-        <img src = "images/beefBall.jpg" alt = "Beef Ball">
-        <h2>Beef Ball</h2>
-    </div>
 
-
-</div>
+    <!--  -->
 
 
 
 
 
-    
+
 
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
     <script src="js/app.js"></script>

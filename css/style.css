@@ -9,17 +9,23 @@ body {
   background-color: grey;
 }
 
-img {
-  width: 50%;
-  margin: 0 auto 0 auto;
+h1, h2 {
+  text-align: center;
 }
 
-#selectionContainer {
+.dimSum-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
   row-gap: 40px;
   margin-top: 40px;
+}
+
+img {
+  display: block;
+  width: 300px;
+  height: 225px;
+  margin: 10px auto 5px auto;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,7 @@
-function select(userSelection) {
-    Cookies.set("selection", userSelection);
-    window.open("page2.html");
+function pickOne(userPicks) {
+    Cookies.set("picked", userPicks);
+    window.open("pages/selection.html");
 
-   }
+}
+
+document.getElementsByClassName
